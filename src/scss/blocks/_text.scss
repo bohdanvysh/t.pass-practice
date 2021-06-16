@@ -1,0 +1,10 @@
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $text-color;
+    &__medium {
+        font-weight: 500;
+        font-size: 18px;
+    }
+}
