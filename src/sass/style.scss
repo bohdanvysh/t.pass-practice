@@ -2,12 +2,17 @@
 @import 'libs/fonts';
 @import 'variables/variables';
 
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 * {
-    max-width: 1440px;
-    margin: 0 auto;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 @import 'blocks/text';
 @import 'blocks/titles';
 @import 'blocks/header';
+@import 'blocks/order-ahead';

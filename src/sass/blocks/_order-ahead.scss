@@ -1,0 +1,42 @@
+.order-ahead {
+    position: relative;
+    background: $sub-bg-color;
+    padding-bottom: 11.563rem;
+    &_content {
+        &_descr {
+            font-weight: 700;
+            font-size: 3.438rem;
+            letter-spacing: 1.11px;
+            &_title {
+                color: $sub-elem-color;
+            }
+            &_button {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                width: 13rem;
+                height: 3.75rem;
+                margin-top: 3.125rem;
+                padding: 1.188rem 1.313rem;
+                background: $sub-elem-color;
+                border: none;
+                box-shadow: 0px 3px 18px rgba(0, 201, 201, 0.55);
+                border-radius: 14px;
+                font-weight: 700;
+                font-size: 1.125rem;
+                color: $main-color;
+            }
+        }
+        &_image-1 {
+            position: absolute;
+            bottom: 0;
+            right: 16.3%;
+        }
+        &_image-2 {
+            position: absolute;
+            bottom: 0;
+            right: 24.2%;
+            z-index: 1;
+        }
+    }
+}
