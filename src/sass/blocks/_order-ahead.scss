@@ -3,6 +3,9 @@
     background: $sub-bg-color;
     padding-bottom: 11.563rem;
     &_content {
+        a:hover {
+            text-decoration: none;
+        }
         &_descr {
             font-weight: 700;
             font-size: 3.438rem;

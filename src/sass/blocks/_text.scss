@@ -1,10 +1,13 @@
 .text {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     color: $text-color;
     &__medium {
         font-weight: 500;
-        font-size: 18px;
+        font-size: 1.125rem;
+        &_2 {
+            font-weight: 400;
+        }
     }
 }

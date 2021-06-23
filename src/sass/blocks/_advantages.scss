@@ -1,0 +1,36 @@
+.advantages {
+    padding-top: 6.25rem;
+    padding-bottom: 6.75rem;
+    &_content {
+        display: flex;
+        justify-content: space-evenly;
+        &_item {
+            &_round {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 6.563rem;
+                height: 6.563rem;
+                margin-bottom: 1.813rem;
+                &::before {
+                    position: absolute;
+                    content: "";
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    background: linear-gradient(160.47deg, rgba(0, 201, 201, 0) 15.15%, rgba(0, 201, 201, 0.699) 93.19%);
+                    border-radius: 100%;
+                    opacity: 0.2;
+                    z-index: -1;
+                }
+            }
+            &_descr {
+                p {
+                    margin-top: 0.75rem;
+                }
+            }
+        }
+    }
+}
