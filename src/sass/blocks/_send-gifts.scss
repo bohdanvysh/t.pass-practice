@@ -1,31 +1,32 @@
-.how-works {
+.send-gifts {
     position: relative;
+    padding-top: 5.25rem;
     padding-bottom: 8rem;
     &_item-1 {
         position: absolute;
         top: 20%;
-        left: 21.5%;
+        right: 21%;
         z-index: 1;
     }
     &_item-2 {
         position: absolute;
         bottom: 11.5%;
-        left: 28.10%;
+        right: 27.4%;
         z-index: 2;
     }
     &_item-3 {
         position: absolute;
-        bottom: 10.2%;
-        left: 40.28%;
-        z-index: 3;
+        bottom: 12.2%;
+        right: 41.28%;
+        z-index: 1;
     }
 
     &_content {
         padding-top: 7.188rem;
         padding-bottom: 6.063rem;
-        padding-right: 10.375rem;
+        padding-left: 10.375rem;
         display: flex;
-        justify-content: flex-end;
+        justify-content: flex-start;
         background: $sub-bg-color;
         border: none;
         border-radius: 3.125rem;

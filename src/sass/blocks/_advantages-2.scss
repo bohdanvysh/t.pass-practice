@@ -1,0 +1,70 @@
+.advantages-2 {
+    position: relative;
+    background: $sub-bg-color;
+    margin-bottom: 6.25rem;
+    &::before {
+        position: absolute;
+        content: " ";
+        top: 0%;
+        bottom: 86%;
+        left: 0;
+        right: 0;
+        background: #fff;
+    }
+    &_content {
+        display: flex;
+        justify-content: space-between;
+        &_descr {
+            &_item {
+                width: 28.438rem;
+                height: 11.188rem;
+                margin-top: 1.875rem;
+                padding: 1.563rem 4.375rem 2.625rem 1.563rem;
+                background: #fff;
+                box-shadow: 0px 8px 32px rgba(15, 35, 54, 0.06);
+                transform: translateY(5%);
+                &:nth-child(odd) {
+                    transform: translate(8% ,14%);
+                }
+                &:nth-child(2) {
+                    transform: translate(20%, 14%);
+
+                }
+                &_icon {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 3.125rem;
+                    height:3.125rem;
+                    margin-right: 1.059rem;
+                    background: #F6F7F8;
+                    border: none;
+                    border-radius: 0.5rem;
+                }
+                &_text {
+                    margin-top: 0.625rem;
+                    h3 {
+                        margin-bottom: 1.563rem;
+                    }
+                }
+                &_1 {
+                    display: flex;
+                    justify-content: space-around;
+                }
+                &_2 {
+                    display: flex;
+                    justify-content: space-around;
+                }
+                &_3 {
+                    display: flex;
+                    justify-content: space-around;
+                }
+            }
+        }
+        &_bg {
+            position: absolute;
+            left: 50%;
+            z-index: 1;
+        }
+    }
+}

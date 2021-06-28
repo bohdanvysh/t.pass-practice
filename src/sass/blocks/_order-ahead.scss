@@ -30,6 +30,17 @@
                 color: $main-color;
             }
         }
+        &_point {
+            position: absolute;
+            top: 39.5%;
+            left: 42.2%;
+            z-index: 2;
+            width: 11.5px;
+            height: 11.5px;
+            border: none;
+            border-radius: 100%;
+            background: #F3AF47;
+        }
         &_image-1 {
             position: absolute;
             bottom: 0;
