@@ -1,0 +1,60 @@
+.footer {
+    position: relative;
+    background: $main-color;
+    padding-top: 3.5rem;
+    height: 18.563rem;
+    &_content {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        &_logo {
+            grid-column: span 2 / auto;
+        }
+        &_info {
+            display: flex;
+            justify-content: space-between;
+            width: 28.125rem;
+            height: 6.625rem;
+            margin-top: 0.625rem;
+            margin-left: 25rem;
+            color: #fff;
+            h3 {
+                font-weight: 700;
+                font-size: 0.75rem;
+                letter-spacing: 0.1px;
+                color: $sub-elem-color;
+            }
+            a {
+                font-weight: 400;
+                font-size: 0.875rem;
+                letter-spacing: 0.39px;
+                color: rgba(255, 255, 255, 0.7);
+                text-decoration: none;
+                &:hover {
+                    color: #787878
+                }
+            }
+            &_block {
+                display: inline-flex;
+                flex-direction: column;
+                gap: 5px;
+            }
+        }
+        &_leaf-right {
+            position: absolute;
+            left: 0;
+            bottom: 8%;
+        }
+        &_leaf-left-1 {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            z-index: 2;
+        }
+        &_leaf-left-2 {
+            position: absolute;
+            right: 0;
+            bottom: 20%;
+            z-index: 1;
+        }
+    }
+}
